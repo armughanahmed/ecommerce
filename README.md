@@ -1,0 +1,2 @@
+# ecommerce
+ This is a production-grade RESTful API built with Spring Boot, designed to serve as the backend for an e-commerce platform. The API provides core features such as user authentication, product management, order processing, and inventory management. It adheres to modern software development best practices, including robust validation, security with JWT authentication, and comprehensive documentation with OpenAPI/Swagger.
