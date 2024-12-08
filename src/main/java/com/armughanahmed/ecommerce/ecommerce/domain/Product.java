@@ -27,6 +27,19 @@ public class Product {
     @Column(nullable = false)
     private Integer stock;
 
+    // No-args constructor
+    public Product() {
+    }
+
+    // Parameterized constructor
+    public Product(Long id, String name, String description, BigDecimal price, Integer stock) {
+        this.id = id;
+        this.name = name;
+        this.description = description;
+        this.price = price;
+        this.stock = stock;
+    }
+
     public Long getId() {
         return id;
     }
